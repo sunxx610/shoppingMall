@@ -1,0 +1,180 @@
+.dialog {
+  z-index: 1001;
+  width: 450px;
+  height: 600px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  margin-left: -225px;
+  position: absolute;
+  background-image: url(../img/bg_9b9dcb65ff@2x.png);
+  background-size: 100px;
+  background-repeat: repeat;
+}
+
+.dialog .signClose {
+  position: relative;
+  float: right;
+  padding: 16px 20px;
+  font-size: 26px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.dialog .title {
+  position: relative;
+  background-image: url(../img/red_logo.png);
+  background-size: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 92px;
+  margin: 23px 0 50px;
+  padding: 75px 0 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.dialog .title h4 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  line-height: 1em;
+  height: auto;
+  color: #333;
+  font-weight: 400;
+}
+
+.login-form .input {
+  background: #fff;
+  box-shadow: 0 3px 5px -4px rgba(0, 0, 0, .4) inset, -1px 0 3px -2px rgba(0, 0, 0, .1) inset;
+  border: #ccc solid 1px;
+  border-radius: 6px;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  opacity: .618;
+  position: relative;
+  transition: opacity .3s ease-in;
+  /*padding-left: 20px;*/
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+  height: 100%;
+}
+
+.dialog .content-sign {
+  padding: 0 40px 22px;
+}
+
+.login-form .btn-wrapper {
+  margin: 30px 0 0;
+}
+
+.login-form .remember .auto {
+  color: #999;
+  float: left;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 22px;
+  height: 20px;
+}
+
+.sign-panel-div .blue-checkbox {
+  background: url(../img/checkbox_f49f6e4acf.png) no-repeat;
+  background-position: 0 -20px;
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.sign-panel-div .checked {
+  background-position: 0 0;
+}
+.sign-panel-div .signUp-a {
+  margin-left: 160px;
+}
+.remember a {
+  display: inline-block;
+  line-height: 20px;
+  height: 20px;
+  font-size: 12px;
+  float: left;
+}
+
+.login-form .remember .registercloud {
+  display: inline-block;
+  float: left;
+  font-size: 12px;
+  margin-left: 132px;
+  margin-left: 130px \9 \0;
+  margin-right: 8px;
+}
+
+.login-form .btn-wrapper {
+  margin: 60px 0 0;
+}
+
+.btn.disabled {
+  cursor: not-allowed;
+  opacity: .4;
+  pointer-events: none;
+}
+
+.sign-panel-div .btn-primary {
+  background: #6383c6;
+  background: linear-gradient(#6383c6, #4262af);
+}
+
+.sign-panel-div .btn {
+  border-radius: 6px;
+  clear: both;
+  cursor: pointer;
+  height: 46px;
+  line-height: 46px;
+  margin: 0 0 12px;
+  padding: 1px;
+  -webkit-touch-callout: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.sign-panel-div .btn a {
+  color: #f0f0f0;
+}
+
+.sign-panel-div .clearFloat:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.sign-panel-div .log-error, .reg-error {
+  font-size: 12px;
+  color: #c30a18;
+  margin-top: -12px;
+  margin-left: 10px;
+}
