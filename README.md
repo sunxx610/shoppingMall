@@ -1,5 +1,9 @@
 # phonecase-shop
 
+Demo: http://rushisun.com/
+
+Notice: Time concerned, only home page is responsive. Products data has been updated.
+
 > A Vue.js project
 
 ## Build Setup
